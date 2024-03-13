@@ -1,0 +1,77 @@
+/* ESERCIZIO 1) Crea un selettore per selezionare l'<h1> nella sezione "hero", ovvero nel jumbotron */
+.jumbotron h1 {
+    background-color: blueviolet;
+}
+
+/* ESERCIZIO 2) Crea un selettore per selezionare tutti i figli dell'elemento navbar */
+nav > * {
+    background-color: black;
+}
+
+/* ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del jumbotron */
+.jumbotron a {
+    color: red;
+}
+
+nav span {
+    color: aquamarine;
+}
+
+/* ESERCIZIO 4) Crea un selettore per selezionare il primo blog post */
+.blog-post:first-of-type {
+    background-color: aqua;
+}
+
+/* ESERCIZIO 5) Crea un selettore per selezionare l'<hr> del primo blog post e colorarlo di rosso */
+.blog-post:first-of-type hr {
+    color: red;
+    background-color: red;
+}
+
+.blog-main .blog-post:nth-child(2){
+    background-color: aqua;
+}
+
+/* ESERCIZIO 6) Crea un selettore per selezionare i link pari della navbar */
+.blog-pagination a:nth-of-type(even) {
+    color: red;
+}
+
+/* ESERCIZIO 7) Crea un selettore per selezionare tutti gli <li> della prima "ordered-list" della sidebar ("Archivio") */
+.list-unstyled.mb-0 li {
+    border: 2px solid darkkhaki;
+    border-top: 2px solid fuchsia;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+/* ESERCIZIO 8) Crea un selettore per selezionare l'autore del secondo blog post */
+.blog-post:nth-child(3) .blog-post-meta a{
+    background-color: peru;
+    padding: 5px;
+    color: white;
+}
+
+
+/* ESERCIZIO 9) Crea un selettore per selezionare il secondo <li> della lista del terzo blog post */
+.blog-main .blog-post:nth-child(4) ul li:nth-of-type(2){
+    background-color: aqua;
+}
+
+/* ESERCIZIO 10) Crea un selettore per selezionare il link "Torna su" che trovi a fondo pagina nell'angolo in basso a destra */
+.float-right.mb-3.mr-3{
+    background-color: darkmagenta;
+}
+
+/* ESERCIZIO 11) Crea un selettore per selezionare il bottone "Nuovi" che trovi in basso */
+.btn.btn-outline-secondary.disabled{
+    color: aqua;
+}
+
+/* ESERCIZIO 12) Crea un selettore per selezionare il secondo link del footer */
+.text-center a:nth-of-type(2){
+    background-color: black;
+}
+
+
+
